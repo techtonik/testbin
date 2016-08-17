@@ -1,0 +1,8 @@
+mcspeed.webm:
+  usedin:
+  - https://trac.videolan.org/vlc/ticket/17295
+  description:
+    attempt to measure speed of `mc` on Linux resulted in two bugs -
+    one with `recordscreen.py` that produced video which shows
+    things faster than they really are, and another one with `VLC`
+    that is unable to fetch more that 15 frames when jumping vy one
