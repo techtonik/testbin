@@ -1,0 +1,4 @@
+encoding-problem-cp1252.py:
+  description:
+    Magic bug with Python 3.5.2 on Windows. At given form
+    it fails, but if **any** line is removed, it passes.
