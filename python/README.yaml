@@ -1,4 +1,7 @@
 encoding-problem-cp1252.py:
+  usedin:
+  - http://stackoverflow.com/questions/39032416/encoding-issue-with-ascii-safe-file-with-codec-header-depending-on-line-count
+  - http://bugs.python.org/issue27797
   description:
     Magic bug with Python 3.5.2 on Windows. At given form
     it fails, but if **any** line is removed, it passes.
