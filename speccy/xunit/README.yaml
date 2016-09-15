@@ -1,0 +1,8 @@
+nosetests.xml:
+  usedin:
+  - https://ci.appveyor.com/project/techtonik/ruruki/build/13/artifacts
+  - http://help.appveyor.com/discussions/problems/5264-xunit-results-are-not-being-parsed
+  description:
+    AppVeyor claims to supports xUnit XML test format are limited to
+    xUnit.net reports only. Here is report from Python nose 1.3.7
+    that AppVeyor parses as JUnit, but not xUnit.
